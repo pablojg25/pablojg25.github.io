@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+}
+body {
+    background-color: lightgray;
+}
+body > * {
+    margin-bottom: 1vh;
+}
+
+body > *:not(header) {
+    margin-left: 1vw;
+}
+
+header {
+    position: sticky;
+    width: 100vw;
+    height: 5vh;
+    margin: none;
+    background-color: grey;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: middle;
+}
+
+nav ul li {
+    display: inline-block;
+    height: 5vh;
+    vertical-align: middle;
+}
+
+nav ul li:hover {
+    background-color: darkslategray;
+    color: white;
+}
